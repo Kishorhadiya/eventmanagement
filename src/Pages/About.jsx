@@ -62,13 +62,14 @@ function About() {
         </div>
       </section>
 
+
       <div className="About-card-container">
         <div className="About-card">
-          <h3>study with us</h3>
+          <h3>study with us   </h3>
           <p>Visit Our World class Facility</p>
           <p>for South African Scientist</p>
           <p>and Spectrum</p>
-        </div>
+        </div>   
 
         <div className="About-card">
           <h3>study with us</h3>
