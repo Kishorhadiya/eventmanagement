@@ -35,14 +35,17 @@ function Navbar() {
 
       <div className="user">
         <img src={user} alt="user" />
-        <span>spark user</span>
-        <Link className="Logout-btn" to="/login">
-          Logout
-        </Link>
+        <span>Spark User ▼</span>
+
+        <div className="dropdown-menu">
+          <Link to="/account">Account</Link>
+          <Link to="/booking">My Booking</Link>
+          <Link to="/login">Logout</Link>
+        </div>
       </div>
     </nav>
   );
-  <section class="hero">
+  <section className="hero">
     <h2>One Stop event Planet</h2>
   </section>;
 }

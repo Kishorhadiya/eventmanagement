@@ -1,8 +1,12 @@
 import { useParams } from "react-router-dom";
 import { events } from "./store.js";
 import "./EventDetalis.css";
+import CricketEvent from "./CricketEvent.jsx";
+import { useNavigate } from "react-router-dom"; 
 
 const EventDetalis = () => {
+
+  const navigate=useNavigate();
   const { category } = useParams();
 
   const eventList = events.filter(
@@ -36,7 +40,7 @@ const EventDetalis = () => {
               Welcome to {event.title}. Book your ticket today and enjoy an unforgettable experience.
             </p>
 
-            <button className="book-btn">
+            <button className="book-btn" onClick={()=>navigate("/cricketevent")}>
               Book Now
             </button>
           </div>

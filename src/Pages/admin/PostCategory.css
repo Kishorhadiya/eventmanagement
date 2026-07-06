@@ -1,0 +1,46 @@
+.input-data {
+  margin-top: 30px;
+  margin-left: 27%;
+  text-align: center;
+}
+
+.btn {
+  width: 45%;
+  height: 38px;
+  margin-left: 27%;
+  margin-top: 30px;
+}
+
+.sk-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+
+.sk-table th {
+  background: #000;
+  color: #fff;
+  padding: 11px;
+}
+
+.sk-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.category-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-delete{
+    transition: all 0.3s ease;
+}
+.btn-delete:hover{
+  color:darkred;
+transform: scale(1.2);
+}

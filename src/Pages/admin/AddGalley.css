@@ -1,0 +1,25 @@
+.AddGalley-img img {
+    width:45px;
+    height: 45px;
+    margin-left: 50%;
+}
+
+.AddGalley-img h3{
+    margin-left: 49%;
+}
+
+.GalleyForm{
+
+    display: grid;
+    width:40%;
+    height: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+    gap:30px;
+}
+
+input[type="text"]{
+    width:530px;
+    height: 45px;
+   
+}

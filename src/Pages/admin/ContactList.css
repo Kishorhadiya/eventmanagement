@@ -1,0 +1,39 @@
+/* .contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.contact-table th {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+.contact-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  gap:20px;
+}
+ */
+
+
+ .contact-table {
+  width: 100%;
+  border-collapse: separate;   /* collapse ને બદલે separate */
+  border-spacing: 0 12px;      /* Row વચ્ચે 12px space */
+}
+
+.contact-table th {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+.contact-table td {
+  padding: 21px;
+  text-align: center;
+  background: #fff;
+
+}

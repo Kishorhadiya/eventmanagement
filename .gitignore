@@ -22,3 +22,26 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+
+function Layout() {
+  const location = useLocation();
+
+  return (
+    <>
+      {location.pathname  !== "/login" && <Navbar />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
+        <Route path="eventdetalis" element={<EventDetalis />} />
+        <Route path="eventdetalis/:category" element={<EventDetalis />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/cricket" element={<Cricket />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
+  );
+}

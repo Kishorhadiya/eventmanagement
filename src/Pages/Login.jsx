@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
-
 const Login = () => {
   const navigate = useNavigate();
   const [username, Setusername] = useState("");
@@ -31,6 +30,7 @@ const Login = () => {
             placeholder="Enter the name"
             value={username}
             onChange={(e) => Setusername(e.target.value)}
+            className="text-fromat"
           />
 
           <input

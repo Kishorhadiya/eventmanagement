@@ -1,0 +1,50 @@
+.eventpost-img img {
+  width: 45px;
+  height: 45px;
+  margin-left: 45%;
+}
+
+.eventpost-img h3 {
+  margin-left: 44%;
+}
+.Form-handle {
+  margin-top: 20px;
+  margin-left: 25%;
+  display: grid;
+  height: 50%;
+  width: 50%;
+  gap: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+.Form-handle textarea {
+  width: 270px;
+  height: 70px;
+}
+
+.Form-handle input {
+  height: 35px;
+}
+
+.Form-handle button {
+  margin-top: -5px;
+  margin-bottom: 30px;
+}
+
+.Form-handle textarea{
+  width:530px;
+}
+.Form-handle select {
+  height: 35px;
+}
+
+input[type="file"] {
+  width: 100%;
+  background: #3b82f6;
+  color: white;
+  border-radius: 0px;
+  padding: 8px;
+}
+
+

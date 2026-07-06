@@ -1,0 +1,40 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.user-table th {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+.user-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.Profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  border: 2px solid #ddd;
+}
+
+.unblock-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.unblock-btn:hover {
+  background: #16a34a;
+}
